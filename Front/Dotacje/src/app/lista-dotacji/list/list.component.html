@@ -1,0 +1,38 @@
+<app-header>
+    <span levels>DOTACJE</span>
+    <span content>
+        <p>Lista</p>
+    </span>
+</app-header>
+
+<div class="row f-fluid">
+    <div class="col-lg-10">
+        <table *ngIf='grantList && grantList.length>0;else brakDotacji'
+            class="table c-table table-hover table-striped ">
+            <thead>
+                <tr>
+                    <th> nazwa </th>
+                    <th> rozpoczęcie </th>
+                    <th> zakończenie </th>
+                    <th> wysokość </th>
+                    <th> szczegóły </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let grant of grantList" class='row-dot' [routerLink]='["/find/", grant?.id_grant]'>
+                    <td [ngClass]="{'row-active': grant?.isActive}">{{grant?.name}}</td>
+                    <td>{{grant?.startDate|date:'dd-MM-YY'}}</td>
+                    <td>{{grant?.finishDate|date:'dd-MM-YY'}}</td>
+                    <td>{{grant?.maxSubsidy}}</td>
+                    <td style="text-decoration: underline; color: blue;"  
+                    (click)="goToURL(grant, $event)" ><mat-icon>open_in_new</mat-icon> </td>
+                </tr>
+            </tbody>
+        </table>
+        <ng-template #brakDotacji>
+            <div class="c-brakDotacji">
+                <p>Obecnie brak zapisanych dotacji w bazie</p>
+            </div>
+        </ng-template>
+    </div>
+</div>

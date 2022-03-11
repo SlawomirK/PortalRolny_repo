@@ -1,0 +1,148 @@
+<div class='sidebar'>
+  <mat-card class='mat-c'>
+    <mat-card-header>
+      <mat-card-title>
+        <mat-label class='text-light font-weight-light text-lowercase font-italic'>
+          *poniższe pytania umożliwią <br> 
+          dostosowanie wyników do Twojego profilu <br>
+          </mat-label>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="form" (ngSubmit)="createFarmer()">
+        <mat-accordion>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <h3> Profil personalny</h3>
+            </mat-expansion-panel-header>
+            <mat-panel-description>Przy założeniu spełniania definicji "rolnika indywidualnego"</mat-panel-description>
+            <mat-card class="mat-elevation-z4">
+              <mat-card-actions>
+                <p>
+                  <mat-form-field appearance="fill">
+                    <mat-label>Wiek</mat-label>
+                    <mat-select formControlName="ages" required>
+                      <mat-option>--</mat-option>
+                      <mat-option *ngFor="let age of ages" [value]="age">
+                        {{age}}
+                      </mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="ageControl.hasError('required')">Proszę o wybranie wieku</mat-error>
+                    <mat-hint>{{ageControl.value?.sound}}</mat-hint>
+                  </mat-form-field>
+                </p>
+                <p>
+                  <mat-form-field appearance="fill">
+                    <mat-label>Ilość gruntów ornych</mat-label>
+                    <mat-select formControlName="areas" required>
+                      <mat-option>--</mat-option>
+                      <mat-option *ngFor="let area of areas" [value]="area">
+                        {{area}}
+                      </mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="ageControl.hasError('required')">Proszę o powierzchnię gospodarstwa</mat-error>
+                    <mat-hint>{{ageControl.value?.sound}}</mat-hint>
+                  </mat-form-field>
+                </p>
+                <p>
+                  <mat-checkbox formControlName='isInKRUS'>Od co najmniej roku jestem ubezpieczony w KRUS </mat-checkbox>
+                </p>
+                <p>
+                  <mat-checkbox formControlName='isAgIncome' select="true"> Co najmniej 25% moich dochodów pochodzi z
+                    rolnictwa
+                  </mat-checkbox>
+                </p>
+
+              </mat-card-actions>
+            </mat-card>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel>    <mat-expansion-panel-header>
+              <h3>Produkcja zwierzęca</h3>
+            </mat-expansion-panel-header>
+            <mat-panel-description>Dotyczy zarejestrowanych zwierząt</mat-panel-description>
+            <mat-card class="mat-elevation-z4">
+              <mat-card-actions>
+                <p>
+                  <mat-label>Główny hodowany gatunek</mat-label>
+                  <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+                    formControlName="animal">
+                    <mat-radio-button class="example-radio-button" *ngFor="let animal of animals" [value]="animal">
+                      {{animal}}
+                    </mat-radio-button>                  
+                  </mat-radio-group>  
+                <p>
+                  <mat-form-field class="example-form-field">
+                    <mat-label>Liczebność stada</mat-label>
+                    <input matInput type="text" formControlName='numberOfAnimals'>
+                    <button mat-button *ngIf="numberOfAnimals" matSuffix mat-icon-button aria-label="Clear"
+                      [value]='numberOfAnimals'>
+                      <mat-icon>close</mat-icon>
+                    </button>
+                  </mat-form-field>
+                </p><mat-error *ngIf="isAnimalChecked" >Proszę podać wielkość stada</mat-error>
+           
+              </mat-card-actions>
+            </mat-card>          
+          </mat-expansion-panel>
+       
+
+
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <h3>Produkcja roślinna</h3>
+            </mat-expansion-panel-header>
+            <mat-panel-description>Co najmniej 0,1ha</mat-panel-description>
+            <mat-card class="mat-elevation-z4">
+              <mat-card-content>
+                <h3 class="example-h3">Wybierz uprawiane rośliny</h3>
+
+                <section class="example-section" *ngFor="let plant of plants">
+                  <mat-checkbox class="example-margin" (change)="onChangeEventFunc(plant, $event)">
+                    {{ plant }}
+                  </mat-checkbox>
+                </section>
+
+
+              </mat-card-content>
+            </mat-card>
+
+          </mat-expansion-panel>
+
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <h3>Pytania dodatkowe</h3>
+            </mat-expansion-panel-header>
+            <mat-card class="mat-elevation-z4">
+              <mat-card-content>
+
+                <p>
+                  <mat-label>Pytania te pozwolą poszerzyć kryteria wyszukiwania</mat-label>
+                </p>
+                <p>
+                  <mat-checkbox formControlName='hasForest'> Posiadasz las</mat-checkbox>
+                </p>
+                <p>
+                  <mat-checkbox formControlName='hasKids'>Posiadasz co najmniej dwoje dzieci</mat-checkbox>
+                </p>
+                <p>
+                  <mat-checkbox formControlName='wantComitments'>
+                    Jesteś zainteresowany programami pomocowymi<br>
+                    wymagającymi podjęcia się kilkuletnich zobowiązań
+                  </mat-checkbox>
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </mat-expansion-panel>
+        <mat-dialog-actions>
+          <div class='container'>
+            <button mat-raised-button color="primary" type="submit" >
+               <span class="material-icons">search</span>
+            </button>
+          </div>
+        </mat-dialog-actions>
+        </mat-accordion>
+      </form>  
+    </mat-card-content>
+  </mat-card>
+</div>

@@ -1,0 +1,1161 @@
+[
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 324,
+    "description": [
+      "wniosek składany razem z wnioskiem o jpo",
+      "konieczność realizacji praktyk zazielenienia"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosc-za-zazielenienie.html",
+    "name": "Płatność za zazielenienie",
+    "farmer": [
+      {
+        "age": 18,
+        "area": "od 10ha do 30ha",
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      },
+      {
+        "age": 18,
+        "area": "od 0,1ha do 10ha",
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 324,
+    "description": [
+      "wniosek składany razem z wnioskiem o jpo"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosc-za-zazielenienie.html",
+    "name": "Płatność za zazielenienie",
+    "farmer": [
+      {
+        "age": 18,
+        "area": "od 0,1ha do 10ha",
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": false
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 471.0,
+    "description": [
+      "grunty utrzymywane w dobrej kulturze"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/jednolita-platnosc-obszarowa.html",
+    "name": "Jednolita Płatność Obszarowa",
+    "farmer": [
+      {
+        "age": 18,
+        "area": null,
+        "inKRUS": false,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": false,
+        "hasKids": false,
+        "wantComitments": false
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 471.0,
+    "description": [
+      "dla gospodarstw o powierzchni między 3,01-30ha"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosc-dodatkowa.html",
+    "name": "Płatność redystrybucyjna",
+    "farmer": [
+      {
+        "age": null,
+        "area": "od 10ha do 30ha",
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": false,
+        "hasKids": false,
+        "wantComitments": false
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 471.0,
+    "description": [
+      "dla gospodarstw o powierzchni między 3,01-30ha"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosc-dodatkowa.html",
+    "name": "Płatność redystrybucyjna",
+    "farmer": [
+      {
+        "age": null,
+        "area": "od 0,1ha do 10ha",
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": false,
+        "hasKids": false,
+        "wantComitments": false
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 252.62,
+    "description": [
+      "płatność do ha przysługuje przez 5 lat od przejęcia gospodarstwa",
+      "do max 50ha",
+      "dla osób w wieku do max 40 lat"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosc-dla-mlodych-rolnikow.html",
+    "name": "Płatność dla Młodych Rolników",
+    "farmer": [
+      {
+        "age": 40,
+        "area": "od 10ha do 30ha",
+        "inKRUS": false,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": false,
+        "hasKids": false,
+        "wantComitments": false
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 252.62,
+    "description": [
+      "płatność do ha przysługuje przez 5 lat od przejęcia gospodarstwa",
+      "do max 50ha",
+      "dla osób w wieku do max 40 lat"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosc-dla-mlodych-rolnikow.html",
+    "name": "Płatność dla Młodych Rolników",
+    "farmer": [
+      {
+        "age": 40,
+        "area": "od 0,1ha do 10ha",
+        "inKRUS": false,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": false,
+        "hasKids": false,
+        "wantComitments": false,
+        "availableGrants": null
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 252.62,
+    "description": [
+      "płatność do ha przysługuje przez 5 lat od przejęcia gospodarstwa",
+      "do max 50ha",
+      "dla osób w wieku do max 40 lat"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosc-dla-mlodych-rolnikow.html",
+    "name": "Płatność dla Młodych Rolników",
+    "farmer": [
+      {
+        "age": 40,
+        "area": "od 30ha do 50ha",
+        "inKRUS": false,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": false,
+        "hasKids": false,
+        "wantComitments": false
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 1516.30,
+    "description": [
+      "koniczna umowa z odbiorcą buraków cukrowych"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-uprawy-burakow-cukrowych.html",
+    "name": "Płatność do powierzchni upraw buraków cukrowych",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": false,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": false,
+        "hasKids": false,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 1128.24,
+    "description": [
+      "koniczna umowa z odbiorcą ziemniaków skrobiowych"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-uprawy-ziemniakow-skrobiowych.html",
+    "name": "Płatność do powierzchni ziemniaków skrobiowych",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 1204.72,
+    "description": [
+      "koniczna umowa z odbiorcą ziemniaków skrobiowych"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-uprawy-truskawek.html",
+    "name": "Płatność do powierzchni truskawek",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 2072.1,
+    "description": [
+      "co najmniej 1300 sadzonek na ha",
+      "dopłata ograniczona do powiatów, patrz szczegóły"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-uprawy-chmielu.html",
+    "name": "Płatność do powierzchni uprawy chmielu",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 724.38,
+    "description": [
+      "może być uznana za obszar proekologiczny"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-upraw-roslin-straczkowych-na-ziarno.html",
+    "name": "Płatność do powierzchni upraw strączkowych",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [
+          "strączkowe"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 468.05,
+    "description": [
+      "przysługuje maksymalnie do powierzchni 75ha"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-upraw-roslin-pastewnych.html",
+    "name": "Płatność do powierzchni upraw roślin pastewnych",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [
+          "motylkowe drobnonasienn"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 2575.02,
+    "description": [
+      "niezbędna umowa z odbiorcą",
+      "tylko z rozsady",
+      "obsada co najmniej 20000 na ha"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-uprawy-pomidorow.html",
+    "name": "Płatność do powierzchni uprawy pomidorów",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [
+          "pomidory"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 492.28,
+    "description": [
+      "umowa niewymagana"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-uprawy-lnu.html",
+    "name": "Płatność do powierzchni uprawy lnu",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [
+          "len"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 127.16,
+    "description": [
+      "wymagane zezwolenie"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-powierzchni-upraw/platnosc-do-powierzchni-uprawy-konopi-wloknistych.html",
+    "name": "Płatność do powierzchni konopii włóknistej",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [
+          "konopie"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 326.76,
+    "description": [
+      "wiek do 24m-cy",
+      "minimalna wielkość stada 3szt",
+      "płatność maksymalnie do 20 sztuk"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-zwierzat/platnosc-do-bydla.html",
+    "name": "Płatność do bydła",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "bydło",
+        "herdSize": 3,
+        "crops": null,
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 412.11,
+    "description": [
+      "wiek zwierząt do 24 m-cy",
+      "minimalna wielkość stada 3szt",
+      "płatność maksymalnie do 20 sztuk"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-zwierzat/platnosc-do-krow.html",
+    "name": "Płatność do krów",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "bydło",
+        "herdSize": 3,
+        "crops": null,
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 111.12,
+    "description": [
+      "wiek zwierząt do 12 m-cy",
+      "minimalna wielkość stada 10szt"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-zwierzat/platnosc-do-owiec.html",
+    "name": "Płatność do owiec",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "owce",
+        "herdSize": 10,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 52.57,
+    "description": [
+      "wiek zwierząt do 12 m-cy",
+      "minimalna wielkość stada 5szt"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/platnosci-bezposrednie-w-roku-2021/platnosci-bezposrednie-w-roku-2021-informacje/platnosci-zwiazane-z-produkcja/platnosci-zwiazane-do-zwierzat/platnosc-do-koz.html",
+    "name": "Płatność do kóz",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "kozy",
+        "herdSize": 5,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 301,
+    "description": [
+      "spełnienie wymogu minimalnej powierzchni kojca"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/DZ/16_03_2021_10_DZ_wariant_1_1_z.pdf",
+    "name": "Dobrostan loch-zwiększona powierzchnia w budynkach",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "trzoda chlewna",
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 612,
+    "description": [
+      "wymóg dostęp do wyniegu"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/DZ/16_03_2021_10_DZ_wariant_1_1_z.pdf",
+    "name": "Dobrostan loch-dostęp do wybiegu",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "trzoda chlewna",
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 24,
+    "description": [
+      "określona minimalna powierzchnia"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/DZ/16_03_2021_10_DZ_wariant_1_1_z.pdf",
+    "name": "Dobrostan tuczników-zwiększona powierzchnia w budynkach",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "trzoda chlewna",
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true,
+        "availableGrants": null
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 33,
+    "description": [
+      "dostęp do wybiegu"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/DZ/16_03_2021_10_DZ_wariant_1_1_z.pdf",
+    "name": "Dobrostan tuczników-dostęp do wybiegu",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "trzoda chlewna",
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 185,
+    "description": [
+      "przez co najmniej 6 godzin bydło musi swobodnie przebywać na pastwisku"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/DZ/12_03_2021_12_DZ_wariant_2_1.pdf",
+    "name": "Dobrostan krów mlecznych-wypas",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "bydło",
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 595,
+    "description": [
+      "określona minimalna powierzchnia obory"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/DZ/12_03_2021_13_DZ_wariant_2_2.pdf",
+    "name": "Dobrostan krów mlecznych-wypas",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": false,
+        "mainAnimal": "bydło",
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 329,
+    "description": [
+      "wypasanie bez uwięzi"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/DZ/12_03_2021_14_DZ_wariant_2_3.pdf",
+    "name": "Dobrostan krów matek",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": "bydło",
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 133,
+    "description": [
+      "wypasanie bez uwięzi"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/DZ/12_03_2021_15_DZ_wariant_3_1.pdf",
+    "name": "Dobrostan owiec",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": "owce",
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true,
+        "availableGrants": null
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 486,
+    "description": [
+      "do gruntów ornych",
+      "obowiązek posiadania planu działalności rolnośrodowiskowej",
+      "minimum 4 uprawy",
+      "co roku plan nawozowy"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/PRSK/18_03_2021_10_PRSK_Pakiet_1.pdf",
+    "name": "Rolnictwo zrównoważone",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 650,
+    "description": [
+      "przeciwdziałanie erozji glebowej",
+      "obowiązek posiadania planu działalności rolnośrodowiskowej",
+      "siew roślin międzyplonowych",
+      "pięcioletnie zobowiązanie"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/PRSK/11_03_2021_11_PRSK_Pakiet_2.pdf",
+    "name": "Ochrona gleb i wód-międzyplony",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 1,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 1964,
+    "description": [
+      "obowiązek posiadania planu",
+      "wiek drzew od 15 lat",
+      "zakaz stosowania herbicydów"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/PRSK/11_03_2021_12_PRSK_Pakiet_3.pdf",
+    "name": "Zachowanie sadów tradycujnych odmian drzew owocowych",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [
+          "sady"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 1300,
+    "description": [
+      "płatności zależą od wybranego wariantu. Najniższa to 600zł/ha",
+      "wsparcie ekstensyfikacji gospodarowania",
+      "poprawa warunków bytowania zagrożonych ptaków"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/PRSK/11_03_2021_13_PRSK_Pakiet_4_i_5.pdf",
+    "name": "Cenne siedliska i zgrożone gatunki ptaków",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [
+          "użytki zielone"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-17",
+    "maxSubsidy": 1000,
+    "description": [
+      "zachowanie ginących i cennych odmian",
+      "wymóg posiadania planu działalności rolnośrodowiskowej"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/PRSK/11_03_2021_14_PRSK_Pakiet_6.pdf",
+    "name": "Zachowanie zagrożonych zasobów genetycznych roślin",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-05-15",
+    "maxSubsidy": 1215,
+    "description": [
+      "Wysokość uzależniona od warunków",
+      "Dla rolników którzy wcześniej złożyli wniosek o wsparcie na zalesienie",
+      "premia pielęgnacyjna jest przyznawana na 5 lat",
+      "premia zalesieniowa przyznawana na 12 lat"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PROW__zalesienia_2007-2013/Informacja_dotyczaca_zasad.pdf",
+    "name": "Premia pielęgnacyjna i zalesieniowa",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": true,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-15",
+    "finishDate": "2021-06-17",
+    "maxSubsidy": 1900,
+    "description": [
+      "zachowanie rodzimych gatunków zwierząt",
+      "wymóg posiadania planu działalności rolnośrodowiskowej",
+      "stawki zależne od wariantu. Maksymalna dla koni ras małopolskiej i wielkopolskiej"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/fileadmin/pliki/PB_2020/WPS/PRSK/11_03_2021_15_PRSK_Pakiet_7.pdf",
+    "name": "Zachowanie zagrożonych zasobów genetycznych zwierząt",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2020-09-09",
+    "finishDate": "2020-10-07",
+    "maxSubsidy": 5100,
+    "description": [
+      "wskazana wysokość dotacji ma charakter orientacyjny",
+      "jest uzależniona od wielkości i rodzaju produkcji"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/platnosci-bezposrednie/pomoc-dla-rolnikow-szczegolnie-dotknietych-kryzysem-covid-19/pomoc-covid-19-informacje.html",
+    "name": "Pomoc dla rolników szczególnie dotkniętych kryzysem COVID-19",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": "bydło",
+        "herdSize": 0,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": null,
+    "finishDate": null,
+    "maxSubsidy": 67.98,
+    "description": [
+      "wskazana wysokość dotacji ma charakter orientacyjny"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-krajowa/doplaty-do-materialu-siewnego-stawki-dla-wnioskow-zlozonych-w-2020-roku.html",
+    "name": "Dopłaty do materiału siewnego",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": "bydło",
+        "herdSize": 0,
+        "crops": [
+          "zboża",
+          "ziemniaki",
+          "strączkowe"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": null,
+    "finishDate": "2020-12-30",
+    "maxSubsidy": 1500,
+    "description": [
+      "co najmniej dwoje niepełnoletnich dzieci",
+      "dochód nie przekracza 1200zł na osobę"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-krajowa/pomoc-na-zakupu-komputera-dla-dziecka-z-rodziny-rolniczej.html",
+    "name": "Pomoc na zakup komputara dla dziecka z rodziny rolniczej",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": "bydło",
+        "herdSize": 0,
+        "crops": [
+          "zboża",
+          "ziemniaki",
+          "strączkowe"
+        ],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": null
+      }
+    ]
+  },
+  {
+    "startDate": null,
+    "finishDate": "2020-12-20",
+    "maxSubsidy": 4500,
+    "description": [
+      "wskazana wysokość ma charakter orientacyjny",
+      "uzależniona od wielkości hodowli"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-krajowa/pomoc-dla-producentow-trzody-chlewnej-ktorym-zagraza-utrata-plynnosci-finansowej-w-zwiazku-z-covid-19.html",
+    "name": "Pomoc dla producentów trzody chlewnej którym zagraża utrata płynności finansowej w związku z COVID-19",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": "trzoda chlewna",
+        "herdSize": 21,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": null
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-11",
+    "finishDate": "2021-12-31",
+    "maxSubsidy": 300000,
+    "description": [
+      "Zniszczenie przez zdarzenie losowe co najmniej 30% produkcji",
+      "W przypadku braku ubezpieczenia kwotę obniża się o połowę",
+      "Wysokość strat określa komisja powołana przez wojewodę"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/prow-2014-2020/poddzialanie-52-inwestycje-odtwarzajace-potencjal-produkcji-rolnej.html",
+    "name": "Inwestycje odtwarzające potencjał produkcji rolnej ",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": null,
+        "mainAnimal": null,
+        "herdSize": 21,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": null
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-31",
+    "finishDate": "2021-12-29",
+    "maxSubsidy": 60000,
+    "description": [
+      "Pomoc przyznaje się tylko raz",
+      "Dla gospodarstw o wielkości ekonomicznej mniejsze niż 13000 euro"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/ogloszenia-prezesa-arimr/artykuly/restrukturyzacja-malych-gospodarstw-5.html",
+    "name": "Restrukturyzacja małych gospodarstw",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": true,
+        "mainAnimal": null,
+        "herdSize": 21,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": null
+      }
+    ]
+  },
+  {
+    "startDate": "2021-03-31",
+    "finishDate": "2021-05-29",
+    "maxSubsidy": 150000,
+    "description": [
+      "wymagane kwalifikacje rolnicze",
+      "maksymalny okres posiadania gospodarstwa 24 m-ce",
+      "stworzą lub posiadają gospodarstwo o wartości od 13tyś do 150tyś euro"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/aktualnosci/artykuly/premie-dla-mlodych-rolnikow-i-restrukturyzacja-malych-gospodarstw-wystartowaly-nabory.html",
+    "name": "Premia dla młodych rolników",
+    "farmer": [
+      {
+        "age": 40,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": true,
+        "mainAnimal": null,
+        "herdSize": null,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2020-11-30",
+    "finishDate": "2021-02-12",
+    "maxSubsidy": 500000,
+    "description": [
+      "Pomoc w formie refundacji połowy kosztów kwalifikowanych"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/prow-2014-2020/poddzialanie-64-wsparcie-inwestycji-w-tworzenie-i-rozwoj-dzialalnosci-pozarolniczej.html",
+    "name": "Wsparcie inwestycji w tworzenie i rozwój działalności pozarolniczej",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": true,
+        "mainAnimal": null,
+        "herdSize": null,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  },
+  {
+    "startDate": "2020-03-31",
+    "finishDate": "2020-06-30",
+    "maxSubsidy": 500000,
+    "description": [
+      "Pomoc w formie refundacji połowy kosztów kwalifikowanych",
+      "Wartość ekonomiczna gospodarstwa nie mniejsza niż 13tyś euro i nie większa niż 200tyś euro",
+      "Na wprowadzenie innowacji, zwiększenie skali produkcji itd"
+    ],
+    "detailsLink": "https://www.arimr.gov.pl/pomoc-unijna/prow-2014-2020/poddzialanie-41-modernizacja-gospodarstw-rolnych-obszar-a-d/modernizacja-gospodarstw-rolnych-nabor-31-marca-30-czerwca-2020-r.html",
+    "name": "Modernizacja gospodarstw rolnych",
+    "farmer": [
+      {
+        "age": null,
+        "area": null,
+        "inKRUS": null,
+        "agricultureIncome": true,
+        "mainAnimal": null,
+        "herdSize": null,
+        "crops": [],
+        "hasForest": null,
+        "hasKids": null,
+        "wantComitments": true
+      }
+    ]
+  }
+]

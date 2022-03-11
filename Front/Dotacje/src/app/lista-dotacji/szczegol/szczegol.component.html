@@ -1,0 +1,29 @@
+<app-header>
+    <span levels>{{ grant?.name | uppercase }}</span>
+    <span content>
+        <div class=data-container>
+            <mat-card>
+                <mat-card-content >
+                    <div class=body><h2>
+                        Nabór wniosków rozpoczyna się {{ grant?.startDate | date:'dd/MM/yyyy' }}
+                        i trwa do dnia {{ grant?.finishDate | date: 'dd/MM/yyyy' }}.
+                        <br>Podczas ubiegania się o dotację należy pamiętać o tym że:
+                        <ul class="mat-list-group opis">
+                            <li *ngFor="let d of grant?.description">{{d}}</li>
+                        </ul>
+                        Maksymalnie można uzyskać {{grant?.maxSubsidy }} zł
+                    </h2></div>
+                </mat-card-content>
+                <mat-card-actions>
+                    <div class='container text-right'>
+                        <button mat-raised-button color="primary" mat-button [routerLink]="['/grants/all']"><span
+                                class="material-icons">
+                                navigate_before
+                            </span></button>
+                    </div>
+                </mat-card-actions>
+
+            </mat-card>
+        </div>
+    </span>
+</app-header>
