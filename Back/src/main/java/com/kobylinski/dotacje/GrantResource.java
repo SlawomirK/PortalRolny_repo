@@ -1,5 +1,9 @@
 package com.kobylinski.dotacje;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.kobylinski.dotacje.model.Farmer;
 import com.kobylinski.dotacje.model.Grant;
 import com.kobylinski.dotacje.service.GrantService;
 import org.springframework.http.HttpStatus;
@@ -7,6 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -48,6 +53,13 @@ public class GrantResource {
     public ResponseEntity<?> deleteGrant(@PathVariable("id") Long id){
         grantService.deleteGrant(id);
         return new ResponseEntity<>(HttpStatus.OK);
+    }
+    @GetMapping(value = "find/filter/{farm}")
+    public ResponseEntity<List<Grant>> getGrantByFarmer(@RequestParam("farm") String farm ) throws JsonProcessingException {
+        Farmer farmer= new ObjectMapper().readValue(farm,Farmer.class);
+        System.out.println("DDDDDDDDDDDDDDDDDDDDDDD"+farmer.toString());
+       List<Grant> grants=grantService.findGrantByFarmer(farmer);
+        return new ResponseEntity<>(grants, HttpStatus.OK);
     }
     }
 

@@ -3,16 +3,16 @@ import { Grant } from "./grants";
 
 export class Farmer{  
 idFarmer: number;
-age:number;
+age:number=18;
 area:string;
-inInKRUS:boolean;
-agricultureIncome:boolean;
+inKRUS:boolean=false;
+agricultureIncome:boolean=false;
 mainAnimal:string;
-herdSize:number;
+herdSize:number=0;
 crops:Array<string>;
 hasForest:boolean;
-hasKids:boolean;
-wantComitments:boolean;
+hasKids:boolean=false;
+wantComitments:boolean=false;
 
 constructor(idFarmer:number,age:number,area:string, 
     inInKRUS:boolean, agricultureIncome: boolean, mainAnimal:string, herdSize:number, 
@@ -20,7 +20,7 @@ constructor(idFarmer:number,age:number,area:string,
 this.idFarmer=idFarmer;
 this.age=age;
 this.area=area;
-this.inInKRUS=inInKRUS;
+this.inKRUS=inInKRUS;
 this.agricultureIncome=agricultureIncome;
 this.mainAnimal=mainAnimal;
 this.herdSize=herdSize;

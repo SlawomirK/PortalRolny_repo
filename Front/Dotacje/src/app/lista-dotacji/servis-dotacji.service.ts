@@ -35,8 +35,9 @@ private apiUrl=environment.apiBaseUrl;
   removeGrant(id:number):Observable<Grant>{
     return this.http.delete<Grant>(this.apiUrl+`/${id}`);
   }
-  getGrantByFarmer(farmer:Farmer):Observable<Grant[]>{    
-    return this.http.get<Grant[]>(this.apiUrl+`/find/${farmer}`);
+  getGrantByFarmer(farmer:Farmer):Observable<Grant[]>{ 
+      var farm=JSON.stringify(farmer)
+    return this.http.get<Grant[]>(`${this.apiUrl}/find/filter/`, {params: { farm}});
   }
 
 
@@ -44,6 +45,7 @@ private apiUrl=environment.apiBaseUrl;
   newGrants = this.grants.asObservable();
 
   @Output() emit: EventEmitter<Farmer> = new EventEmitter();
+
   filter(farmer: Farmer) {
     this.emit.emit(farmer);
     this.grants.next(this.getGrantByFarmer(farmer))

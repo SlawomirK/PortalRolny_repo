@@ -9,6 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -49,10 +50,13 @@ public class GrantService {
     }
 
     public List<Grant> findGrantByFarmer(Farmer farmer) {
-        return grantRepo.findGrantByFarmer(farmer).
-                orElseThrow(() -> new GrantNotFoundException(
-                "Dotacja dla tej grupy beneficjentów nie znaleziona"
-        ));
+        System.out.println("TEST"+farmer);
+        List<Grant> list= Arrays.asList(new Grant());
+        return// grantRepo.findGrantByFarmer(farmer).
+                list;
+             //   orElseThrow(() -> new GrantNotFoundException(
+              //  "Dotacja dla tej grupy beneficjentów nie znaleziona"
+    //    ));
     }
 
     public ResponseEntity<?> deleteGrant(Long id) {

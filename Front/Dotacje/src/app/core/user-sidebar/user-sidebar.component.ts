@@ -69,12 +69,14 @@ export class UserSidebarComponent implements OnInit {
       this.form.controls.areas.patchValue(this.areas[0]);
     })
     of(this.getAnimals()).subscribe(animals => {
+      if(this.isAnimalChecked){
       this.animals = animals;
-      this.form.controls.animals.patchValue(this.animals[0]);
+      this.form.controls.animals.patchValue(this.animals[0]);}
     })
     of(this.getPlants()).subscribe(plants => {
+if(this.isPlantChecked){
       this.plants = plants;
-      this.form.controls.plants.patchValue(this.plants[0]);
+      this.form.controls.plants.patchValue(this.plants[0]);}
     })
   }
 
@@ -112,6 +114,9 @@ export class UserSidebarComponent implements OnInit {
   }
   get isAnimalChecked(){
     return this.form.get("animal")?.touched && this.animalControl.hasError('min');
+  }
+  get isPlantChecked(){
+    return this.form.get("plants")?.touched&&this.animalControl.hasError('min');
   }
   createFarmer() {  
     this.form.value.age=18;
