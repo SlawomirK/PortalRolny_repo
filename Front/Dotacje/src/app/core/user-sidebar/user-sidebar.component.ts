@@ -41,7 +41,7 @@ export class UserSidebarComponent implements OnInit {
     if (isChecked.checked) {
       plants.push(new FormControl(plant));
     } else {
-      const index = plants.controls.findIndex(x => x.value === plant);
+      const index = plants.controls.findIndex((x: { value: string; }) => x.value === plant);
       plants.removeAt(index);
     }
   }
@@ -60,23 +60,20 @@ export class UserSidebarComponent implements OnInit {
       wantComitments: false
 
     })
-    of(this.getAge()).subscribe(ages => {
+    of(this.getAge()).subscribe((ages: any[]) => {
       this.ages = ages;
       this.form.controls.ages.patchValue(this.ages[0]);
     })
-    of(this.getArea()).subscribe(areas => {
+    of(this.getArea()).subscribe((areas: any[]) => {
       this.areas = areas;
       this.form.controls.areas.patchValue(this.areas[0]);
     })
-    of(this.getAnimals()).subscribe(animals => {
-      if(this.isAnimalChecked){
-      this.animals = animals;
-      this.form.controls.animals.patchValue(this.animals[0]);}
+    of(this.getAnimals()).subscribe((animals: string[]) => {this.animals = animals;
+      this.form.controls.animals.patchValue(this.animals[0]);
     })
-    of(this.getPlants()).subscribe(plants => {
-if(this.isPlantChecked){
+    of(this.getPlants()).subscribe((plants: string[]) => {
       this.plants = plants;
-      this.form.controls.plants.patchValue(this.plants[0]);}
+      this.form.controls.plants.patchValue(this.plants[0]);
     })
   }
 
@@ -114,9 +111,6 @@ if(this.isPlantChecked){
   }
   get isAnimalChecked(){
     return this.form.get("animal")?.touched && this.animalControl.hasError('min');
-  }
-  get isPlantChecked(){
-    return this.form.get("plants")?.touched&&this.animalControl.hasError('min');
   }
   createFarmer() {  
     this.form.value.age=18;

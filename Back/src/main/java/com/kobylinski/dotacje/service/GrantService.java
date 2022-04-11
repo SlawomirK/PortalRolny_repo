@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -49,11 +50,12 @@ public class GrantService {
                 () -> new GrantNotFoundException("Brak informacji o tego typu pomocy"));
     }
 
-    public List<Grant> findGrantByFarmer(Farmer farmer) {
+    public Optional<Grant> findGrantByFarmer(Farmer farmer) {
         System.out.println("TEST"+farmer);
+
         List<Grant> list= Arrays.asList(new Grant());
         return// grantRepo.findGrantByFarmer(farmer).
-                list;
+                grantRepo.findById(Long.valueOf(1));
              //   orElseThrow(() -> new GrantNotFoundException(
               //  "Dotacja dla tej grupy beneficjentów nie znaleziona"
     //    ));

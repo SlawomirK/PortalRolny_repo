@@ -22,9 +22,13 @@ public class Farmer implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false)
     private Long idFarmer;
+    @Column(nullable = true)
     private int age;
+    @Column(nullable = true)
     private String area;
+    @Column(nullable = true)
     private boolean inKRUS;
+    @Column(nullable = true)
     private boolean agricultureIncome;
     @Column(nullable = true)
     private String mainAnimal;

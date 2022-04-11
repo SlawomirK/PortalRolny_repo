@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
@@ -15,6 +14,7 @@ import { GrantsRoutingModule } from './lista-dotacji/list/list-routing.module';
 import { grantsService } from './lista-dotacji/servis-dotacji.service';
 import { GrantRoutingModule } from './lista-dotacji/szczegol/szczegol-routing.module';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -28,10 +28,10 @@ import { GrantRoutingModule } from './lista-dotacji/szczegol/szczegol-routing.mo
     SharedModule,
     AppRoutingModule,   
     GrantsRoutingModule,
-    GrantRoutingModule,
-        
+    GrantRoutingModule,        
   ],
   providers: [grantsService],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

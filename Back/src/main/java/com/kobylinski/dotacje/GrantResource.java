@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
@@ -55,10 +56,10 @@ public class GrantResource {
         return new ResponseEntity<>(HttpStatus.OK);
     }
     @GetMapping(value = "find/filter/{farm}")
-    public ResponseEntity<List<Grant>> getGrantByFarmer(@RequestParam("farm") String farm ) throws JsonProcessingException {
+    public ResponseEntity<?> getGrantByFarmer(@RequestParam("farm") String farm ) throws JsonProcessingException {
         Farmer farmer= new ObjectMapper().readValue(farm,Farmer.class);
         System.out.println("DDDDDDDDDDDDDDDDDDDDDDD"+farmer.toString());
-       List<Grant> grants=grantService.findGrantByFarmer(farmer);
+       Optional<Grant> grants=grantService.findGrantByFarmer(farmer);
         return new ResponseEntity<>(grants, HttpStatus.OK);
     }
     }

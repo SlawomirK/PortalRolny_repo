@@ -3,14 +3,14 @@ import { Grant } from "./grants";
 
 export class Farmer{  
 idFarmer: number;
-age:number=18;
-area:string;
+age:number|null=18;
+area:string|null;
 inKRUS:boolean=false;
 agricultureIncome:boolean=false;
-mainAnimal:string;
+mainAnimal:string|null;
 herdSize:number=0;
-crops:Array<string>;
-hasForest:boolean;
+crops:Array<string>|null;
+hasForest:boolean=false;
 hasKids:boolean=false;
 wantComitments:boolean=false;
 
