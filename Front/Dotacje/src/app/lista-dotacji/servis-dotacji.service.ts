@@ -42,7 +42,6 @@ private apiUrl=environment.apiBaseUrl;
     return this.http.get<Grant[]>(`${this.apiUrl}/find/filter/`, {params: { farm}});
   }
 
-
   private grants = new BehaviorSubject(this.getGrants());
   newGrants = this.grants.asObservable();
 
