@@ -56,9 +56,10 @@ public class GrantResource {
         return new ResponseEntity<>(HttpStatus.OK);
     }
     @GetMapping(value = "find/filter/{farm}")
-    public ResponseEntity<?> getGrantByFarmer(@RequestParam("farm") String farm ) throws JsonProcessingException {
-        Farmer farmer= new ObjectMapper().readValue(farm,Farmer.class);
-        System.out.println("DDDDDDDDDDDDDDDDDDDDDDD"+farmer.toString());
+    public ResponseEntity<?> getGrantByFarmer(Farmer farm ) throws JsonProcessingException {
+        System.out.println("DDDDDDDDDDDDDDDDDDDDDDD");
+
+
        Optional<Grant> grants=grantService.findGrantByFarmer(farmer);
         return new ResponseEntity<>(grants, HttpStatus.OK);
     }

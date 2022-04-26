@@ -1,4 +1,4 @@
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
 import { EventEmitter, Injectable, Output } from '@angular/core';
 
 import { BehaviorSubject, Observable } from 'rxjs';
@@ -12,10 +12,9 @@ import { Grant } from './models/grants';
 providedIn: 'root'
 })
 
-export class grantsService {
-  
-private apiUrl=environment.apiBaseUrl;
+export class grantsService { 
 
+private apiUrl=environment.apiBaseUrl;
 
   constructor(private http:HttpClient) {}
 
@@ -39,7 +38,21 @@ private apiUrl=environment.apiBaseUrl;
   }
   getGrantByFarmer(farmer:Farmer):Observable<Grant[]>{ 
       var farm=JSON.stringify(farmer)
-    return this.http.get<Grant[]>(`${this.apiUrl}/find/filter/`, {params: { farm}});
+
+    let params = new HttpParams({ fromObject: { 
+  idFarmer:  JSON.stringify(1),     
+      age: JSON.stringify(farmer.age),
+      area: farmer.area,
+      inKRUS: JSON.stringify(farmer.inKRUS),
+      agricultureIncome: JSON.stringify(farmer.agricultureIncome),
+      mainAnimal: JSON.stringify(farmer.mainAnimal),
+      herdSize: JSON.stringify(farmer.herdSize),
+      crops: JSON.stringify(farmer.crops),
+      hasForest: JSON.stringify(farmer.hasForest),
+      hasKids: JSON.stringify(farmer.hasKids),
+      wantComitments: JSON.stringify(farmer.wantComitments)
+     } });
+    return this.http.get<Grant[]>(`${this.apiUrl}/find/filter/`, {params});
   }
 
   private grants = new BehaviorSubject(this.getGrants());
