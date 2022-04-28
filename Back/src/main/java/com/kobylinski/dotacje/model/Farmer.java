@@ -2,6 +2,7 @@ package com.kobylinski.dotacje.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
@@ -21,24 +22,38 @@ public class Farmer implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false)
+
     private Long idFarmer;
     @Column(nullable = true)
+
     private int age;
     @Column(nullable = true)
+
     private String area;
     @Column(nullable = true)
+
     private boolean inKRUS;
+
     @Column(nullable = true)
     private boolean agricultureIncome;
     @Column(nullable = true)
+
     private String mainAnimal;
     @Column(nullable = true)
+
     private int herdSize;
     @ElementCollection
     @Column(nullable = true)
+
     private Set<String> crops = new HashSet<>();
+
+    @Column(nullable = true)
     private boolean hasForest;
+
+    @Column(nullable = true)
     private boolean hasKids;
+
+    @Column(nullable = true)
     private boolean wantComitments;
 
 
@@ -69,7 +84,7 @@ public class Farmer implements Serializable {
         this.availableGrants = availableGrants;
     }
 
-    public Farmer( int age, String area, boolean inKRUS, boolean agricultureIncome, String mainAnimal, int herdSize, Set<String> crops, boolean hasForest, boolean hasKids, boolean wantComitments, Set<Grant> availableGr) {
+    public Farmer( int age, String area, boolean inKRUS, boolean agricultureIncome, String mainAnimal, int herdSize, Set<String> crops, boolean hasForest, boolean hasKids, boolean wantComitments) {
 
         this.age = age;
         this.area = area;
@@ -81,7 +96,6 @@ public class Farmer implements Serializable {
         this.hasForest = hasForest;
         this.hasKids = hasKids;
         this.wantComitments = wantComitments;
-        this.availableGrants=availableGr;
         }
 
     @Override

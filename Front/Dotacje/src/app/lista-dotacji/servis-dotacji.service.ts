@@ -40,9 +40,9 @@ private apiUrl=environment.apiBaseUrl;
       var farm=JSON.stringify(farmer)
 
     let params = new HttpParams({ fromObject: { 
-  idFarmer:  JSON.stringify(1),     
+ // idFarmer:  JSON.stringify(1),     
       age: JSON.stringify(farmer.age),
-      area: farmer.area,
+      area: JSON.stringify(farmer.area),
       inKRUS: JSON.stringify(farmer.inKRUS),
       agricultureIncome: JSON.stringify(farmer.agricultureIncome),
       mainAnimal: JSON.stringify(farmer.mainAnimal),
@@ -52,7 +52,19 @@ private apiUrl=environment.apiBaseUrl;
       hasKids: JSON.stringify(farmer.hasKids),
       wantComitments: JSON.stringify(farmer.wantComitments)
      } });
-    return this.http.get<Grant[]>(`${this.apiUrl}/find/filter/`, {params});
+
+     let headers=new HttpParams().set('age',farmer.age)
+     .set('area',farmer.area)
+     .set('inKRUS',farmer.inKRUS)
+     .set('agricultureIncome',farmer.agricultureIncome)
+     .set('mainAnimal', farmer.mainAnimal)
+     .set('herdSize',farmer.herdSize)
+     .set('crops',JSON.stringify(farmer.crops))
+     .set('hasForest',farmer.hasForest)
+     .set('hasKids',farmer.hasKids)
+     .set('wantComitments',farmer.wantComitments)
+    
+    return this.http.get<Grant[]>(`${this.apiUrl}/find/farmer`, { params: headers });
   }
 
   private grants = new BehaviorSubject(this.getGrants());

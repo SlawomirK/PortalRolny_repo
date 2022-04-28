@@ -7,7 +7,7 @@ age:number=18;
 area:string;
 inKRUS:boolean=false;
 agricultureIncome:boolean=false;
-mainAnimal:string;
+mainAnimal:string='';
 herdSize:number=0;
 crops:Array<string>;
 hasForest:boolean=false;
